@@ -1,0 +1,13 @@
+export declare const TABLE_NAME = "ecommerce.products";
+export declare const TABLE_INVOICE_NAME = "ecommerce.invoice";
+export declare const TABLE_CUSTOMER_NAME = "ecommerce.customer";
+export declare const TABLE_PAYMENT_NAME = "ecommerce.payment";
+export declare const REVERSE_INDEX = "reverse.index";
+export declare const TENANT_INDEX = "tenant.index";
+export declare const OPENSEARCH_INDEX = "ecommerce.index";
+export declare const CUSTOMER_ONE = "multifiltros";
+export declare const CUSTOMER_TWO = "creztu";
+export declare const PRODUCT_GROUP = "PRO";
+export declare const CUSTOMER_GROUP = "CUST";
+export declare const INVOICE_GROUP = "INV";
+export declare const SHIPPING_GROUP = "SHIPP";

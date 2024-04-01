@@ -1,0 +1,35 @@
+import { ProductItem } from 'src/infrastructure/model/product/product.item';
+export declare class ProductModelData {
+    private _tenantID?;
+    private _sid?;
+    private _name;
+    private _image;
+    private _description?;
+    private _price;
+    private _createdAt;
+    private _status;
+    private _extraInfo?;
+    private _inventory?;
+    constructor(tenantID: string, sid: string, name: string, price: number, createdAt: string, status: string, image?: string, description?: string, extraInfo?: JSON, inventory?: number | undefined);
+    get tenantID(): string;
+    get sid(): string;
+    get name(): string;
+    get image(): string;
+    get description(): string;
+    get price(): number;
+    get createdAt(): string;
+    get status(): string;
+    get extraInfo(): JSON;
+    get inventory(): number | undefined;
+    set tenantID(value: string);
+    set sid(value: string);
+    set name(name: string);
+    set image(image: string);
+    set description(description: string);
+    set price(price: number);
+    set createdAt(createdAt: string);
+    set status(status: string);
+    set extraInfo(extraInfo: JSON);
+    set inventory(inventory: number | undefined);
+    getItem(): ProductItem;
+}

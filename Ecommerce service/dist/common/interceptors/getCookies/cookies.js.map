@@ -1,0 +1,1 @@
+{"version":3,"file":"cookies.js","sourceRoot":"","sources":["../../../../src/common/interceptors/getCookies/cookies.ts"],"names":[],"mappings":";;AAAA,SAAwB,UAAU,CAAC,OAAY;IAC7C,MAAM,QAAQ,GAAG,OAAO,EAAE,UAAU,CAAC,KAAK,CAAC,GAAG,CAAC,CAAC;IAChD,OAAO,QAAQ,CAAC,CAAC,CAAC,CAAC;AACrB,CAAC;AAHD,6BAGC"}
