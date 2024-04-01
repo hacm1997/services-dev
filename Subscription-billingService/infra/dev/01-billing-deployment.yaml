@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: creztu-billing
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: billing-service
+  template:
+    metadata:
+      labels:
+        app: billing-service
+    spec:
+      containers:
+        - name: billing-container
+          image: 020415689197.dkr.ecr.us-east-1.amazonaws.com/creztu/billing
+          ports:
+            - containerPort: 8080
+      securityContext:
+        fsGroup: 65534
+      serviceAccount: kru-service-account
+ 

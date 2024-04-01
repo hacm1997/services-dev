@@ -1,0 +1,11 @@
+export declare const EPAYCO = "epayco";
+export declare const SUBS_GROUP = "SUB";
+export declare const RECURRING_GROUP = "RBI";
+export declare const BILL_GROUP = "BIT";
+export declare const INVOICE_GROUP = "INV";
+export declare const EMAIL_SENDER = "no-replay@kru360.com";
+export declare const EMAIL_SUCCESS = "Se ha hecho la renovaci\u00F3n de tu subscripci\u00F3n";
+export declare const EMAIL_FAILED = "No se ha podido realizar la renovaci\u00F3n de tu subscripci\u00F3n";
+export declare const formatNumber: (number: number) => string;
+export declare const CANCEL_SUBS = "canceled";
+export declare const ACTIVE_SUBS = "active";
