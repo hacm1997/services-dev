@@ -1,0 +1,11 @@
+export declare const TABLE_NAME = "campaigns.Entities";
+export declare const TABLE_COMPRA_NAME = "compras.Entities";
+export declare const REVERSE_INDEX = "reverse.index";
+export declare const COMPANY_INDEX = "company.index";
+export declare const PERSON_INDEX = "person.index";
+export declare const TENANT_INDEX = "tenant.index";
+export declare const OPENSEARCH_INDEX = "ecommerce.index";
+export declare const TABLE_BLOG_NAME = "blog.Entities";
+export declare const TABLE_HUBSPORT_NAME = "hubsport.Entities";
+export declare const TABLE_TRACKING_NAME = "tracking.Entities";
+export declare const TABLE_CONTACT_NAME = "contact";
